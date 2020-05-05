@@ -15,6 +15,10 @@
         <lombok.library>1.18.10</lombok.library>
         <selenium.java>3.141.59</selenium.java>
         <slf4j.jdk14>1.7.25</slf4j.jdk14>
+        <cucumber.spring>5.6.0</cucumber.spring>
+        <cucumber.core>5.6.0</cucumber.core>
+        <cucumber.java8>5.6.0</cucumber.java8>
+        <cucumber.testng>5.6.0</cucumber.testng>
     </properties>
 
     <packaging>jar</packaging>
@@ -31,28 +35,28 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-core</artifactId>
-            <version>5.6.0</version>
+            <version>${cucumber.core}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-spring -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-spring</artifactId>
-            <version>5.6.0</version>
+            <version>${cucumber.spring}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java8</artifactId>
-            <version>5.6.0</version>
+            <version>${cucumber.java8}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
-            <version>5.6.0</version>
+            <version>${cucumber.testng}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/datatable-matchers -->
@@ -129,8 +133,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.6.1</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
             <plugin>
