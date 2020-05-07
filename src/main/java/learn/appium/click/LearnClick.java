@@ -1,7 +1,7 @@
 package learn.appium.click;
 
 import io.appium.java_client.android.AndroidDriver;
-import learn.appium.common.ApiDemoApp;
+import learn.appium.common.android.natvie.ApiDemoApp;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterClass;
@@ -24,7 +24,7 @@ public class LearnClick {
     }
 
     @AfterClass
-    public void closeApp(){
+    public void closeApp() {
         driver.closeApp();
     }
 }

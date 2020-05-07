@@ -2,7 +2,7 @@ package learn.appium.ui.automator;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import learn.appium.common.ApiDemoApp;
+import learn.appium.common.android.natvie.ApiDemoApp;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
@@ -23,7 +23,7 @@ public class LearnAndroidUIAutomator {
     }
 
     @AfterClass
-    public void closeApp(){
+    public void closeApp() {
         driver.closeApp();
     }
 }

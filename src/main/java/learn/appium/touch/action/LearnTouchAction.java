@@ -5,7 +5,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.offset.ElementOption;
-import learn.appium.common.ApiDemoApp;
+import learn.appium.common.android.natvie.ApiDemoApp;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterClass;
@@ -35,7 +35,7 @@ public class LearnTouchAction {
     }
 
     @AfterClass
-    public void closeApp(){
+    public void closeApp() {
         driver.closeApp();
     }
 
