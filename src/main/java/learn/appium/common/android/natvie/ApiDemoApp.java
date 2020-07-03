@@ -47,7 +47,7 @@ public class ApiDemoApp {
     }
 
     @AfterClass
-    public void closeApp(){
+    public void closeApp() {
         driver.closeApp();
     }
 }

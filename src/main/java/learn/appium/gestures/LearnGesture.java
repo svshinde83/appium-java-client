@@ -17,7 +17,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.testng.Assert.assertTrue;
 
 @Slf4j
-public class LearnGesture {
+public class    LearnGesture {
     private AndroidDriver<AndroidElement> driver;
 
     @Test
